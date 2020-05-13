@@ -13,15 +13,11 @@
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
-    OneSignal.push(function () {
-      OneSignal.init({
-        appId: "${5f57b1e3-c137-424d-ace8-71d6b6efb87f}",
-        autoRegister: false,
-        notifyButton: {
-          enable: true,
-        },
-      });
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "5f57b1e3-c137-424d-ace8-71d6b6efb87f",
     });
+  });
 </script>
 <script>
 
